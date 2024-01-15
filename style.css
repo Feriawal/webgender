@@ -120,4 +120,16 @@ footer a, footer p {
         width: 80%;
     }
 
+    .hasil .male img, .female img {
+        width: 100px;
+    }
+
+    .hasil .male h2  {
+        margin-left: 15px;
+    }
+    
+    .hasil .female h2 {
+        margin-left: 7px;
+    }
+
 }
