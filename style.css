@@ -1,0 +1,123 @@
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    background-image: url(img/background2.jpg);
+    background-position: center;
+
+}
+
+.tittle {
+    background-color: rgb(240, 170, 65);
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.hasil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    /* margin-top: 90px; */
+}
+
+
+.hasil .male img, .female img {
+    width: 200px;
+    /* opacity: .2; */
+}
+
+.hasil .male h2  {
+    margin-left: 50px;
+}
+
+.hasil .female h2 {
+    margin-left: 35px;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+.container input  {
+    border: none;
+    border-bottom: 2px solid rgb(0, 174, 255);
+    border-left: 1px solid  rgb(255, 0, 0);
+    border-right: 1px solid rgb(240, 3, 3);
+    border-radius: 20px;
+    padding: 8px 4px;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+.box {
+    margin-top: 50px;
+    border: 2px solid  rgb(0, 174, 255);
+    width: 500px;
+    height: 130px;
+    border-radius: 40px 0px;
+}
+
+.box label {
+    margin-left: 30px;
+}
+
+#tanda {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: -550px;
+    bottom: 550px;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(161, 161, 161);
+}
+
+footer a, footer p {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .box, .container {
+        width: 80%;
+    }
+
+}

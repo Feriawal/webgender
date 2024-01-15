@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-predic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+<link href="https://css.gg/css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="tittle">prediksi gender berdasarkan nama depan</h1>
+
+    
+
+    <main>
+        <div class="hasil">
+            <div class="male" id="cowok">
+                <img src="img/male.png" alt="male">
+                <h2 id="titleCowok">Laki-laki</h2>
+            </div>        
+            <div class="female" id="cewek">
+                <img src="img/female.png" alt="male">
+                <h2 id="titleCewek">Perempuan</h2>
+            </div>        
+        </div>
+        <div class="container">
+            <label for="">masukkan nama</label>
+            <input type="text" name="" id="" placeholder="contoh Fery" onkeydown="predict(event)">
+        </div>
+        <div class="box">
+            <label for="note">Note: </label>
+            <div id="tanda"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>©️ fryy 2024</p>
+        <a href="https://github.com/Feriawal">
+            <i class="gg-digitalocean"></i>
+        </a>
+        <a href="https://www.instagram.com/_ferryy.a/" >
+            <i class="gg-instagram"></i>
+        </a>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
